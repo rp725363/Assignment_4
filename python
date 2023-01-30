@@ -1,1 +1,111 @@
 
+1. What exactly is []?
+Ans:-
+[] this is a lis in python contains element saprated by comma(,) and enclosed in squre bracket.They can store any type of data like -string, interger and other lists.
+
+2. In a list of values stored in a variable called spam, how would you assign the value 'hello' as the third value? (Assume [2, 4, 6, 8, 10] are in spam.)
+Ans:-
+To assign hello as third value in list [2,4,6,8,10], we can use code as below.
+
+spam=[2,4,6,8,10]
+spam[2]="hello"
+print(spam)
+
+and output of above code will be [2, 4, 'hello', 8, 10] , and it contains hello as third value in list.
+
+3. What is the value of spam[int(int('3' * 2) / 11)]?
+Ans:-
+8
+
+4. What is the value of spam[-1]?
+Ans:-
+ 20
+  
+5. What is the value of spam[:2]?
+Ans:-
+[2,4]
+
+6. What is the value of bacon.index('cat')?
+Ans:- 1
+
+7. How does bacon.append(99) change the look of the list value in bacon?
+Ans:-
+When we runs the code code bacon.append(99) insert 99 in list and output looks as below .
+[3.14, 'cat', 11, 'cat', True, 99, 99, 99]
+here i executed the code three times so 99 appended three times.
+
+
+8. How does bacon.remove('cat') change the look of the list in bacon?
+Ans:-
+When we runs code - bacon.remove('cat'), this code removes 'cat' from the list, results are as below:-
+[3.14, 11, True, 99, 99, 99]
+
+
+9. What are the list concatenation and list replication operators?
+Ans:-
+In python , list concatination oprater is '+', and list replication oprator is '*'
+'+' this used to concotaniate two lists and '*' used to replicate two or multiple lists.
+
+10. What is difference between the list methods append() and insert()?
+Ans:-
+In python , append and insert oprators used to insert element in list .
+append used to add element in end of element while insert add element on specific index.
+
+11. What are the two methods for removing items from a list?
+Ans:-
+there are two oprators for removing element from list are 'remove' & 'pop'
+'remove' removes element from a specific indexes while 'pop' removes elements from end of list.
+
+12. Describe how list values and string values are identical.
+Ans:-
+List values can have any types of data like strind , integer, list itself, etc., while string always contants letter.
+
+  13. What's the difference between tuples and lists?
+  Ans:-
+  Both are used to store collection of values but they have some key diferences like :-
+  mutiablity- list are mutable like we can add , remove or change values from list while tuple do not have access to the all of these .
+  There are many build in function for list like - remove , append , short etc , while tuple have no build in function for these.
+  
+  14. How do you type a tuple value that only contains the integer 42?
+  A tuple in python can be define by using parenthless () contains values in it using comma to saprate values
+ as like:-
+ 
+ t=(42,)
+
+Here we used comma after 42 to represent that this is tuple.
+
+15. How do you get a list value's tuple form? How do you get a tuple value's list form?
+Ans:- python can conver from list to tuple or tuple to list as follows.
+
+List to tuple:-
+
+list=[1,3,4,6,'rajendra',False]
+tuple1=tuple(list)
+tuple1
+
+by running above code we converted a list into tuple and output is- (1, 3, 4, 6, 'rajendra', False).
+
+Tuple to list:-
+t=(1,3,5,7,9,'rajendra')
+list1=list(t)
+list
+
+by excuting above code , we converted a tuple in a list and output is - [1, 3, 5, 7, 9, 'rajendra'].
+
+16. Variables that "contain" list values are not necessarily lists themselves. Instead, what do they contain?
+Ans:- variable in python used to refer the data , they do not contain the actual data to them , valiable only refers to list , and list
+contains that data or value.
+
+17. How do you distinguish between copy.copy() and copy.deepcopy()?
+Ans:- there are two types of copying methods in python like copy.copy()- this is swallow copy methods that keeps eddecting original copy , while you are making
+any changes in duplicate copy .
+While copy.deepcopy() make copy and changes does not affect original copy , beacuse duplicate copy will be assigned on another memory in python.
+
+
+
+
+
+
+
+
+
